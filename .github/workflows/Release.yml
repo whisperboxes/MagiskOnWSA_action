@@ -3,6 +3,8 @@ on:
   release:
     types:
       - published
+  watch:
+    types: [started]
 permissions:
   contents: write
   repository-projects: write
